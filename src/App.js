@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+// import { useDispatch } from "react-redux";
+import { lazy } from "react";
+// import { refreshUser } from "./redux/auth/operations";
+// import { useAuth } from "./hooks/useAuth";
+// import { RestrictedRoute } from "./RestrictedRoute";
+// import { PrivateRoute } from "./PrivateRoute";
+ import SharedLayout from "./components/SharedLayout/SharedLayout";
+
+const Home = lazy(() => import("./pages/Home/Home"));
+// const NewsPage = lazy(() => import("./pages/NewsPage/NewsPage"));
+// const UserAccount = lazy(() => import("./pages/UserAccount/UserAccount"));
+// const RegisterPage = lazy(() => import("./pages/Auth/RegistrationPage"));
+const FindGadget = lazy(() => import("./pages/FindGadget/FindGadget"));
+// const OurFriend = lazy(() => import("./pages/OurFriends/OurFriendsPage"));
+// const LoginPage = lazy(() => import("./pages/Auth/LoginPage"));
 
 function App() {
+  // const dispatch = useDispatch();
+  // const { isRefreshing } = useAuth();
+
+  // useEffect(() => {
+  //   dispatch(refreshUser());
+  // }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // !isRefreshing && (
+      <HelmetProvider>
+        <Routes>
+          <Route path="/" element={<SharedLayout />}>
+            <Route index element={<Home />} />
+            {/* <Route path="news" element={<NewsPage />} /> */}
+            <Route path="categories" element={<FindGadget />} />
+            {/* <Route path="friends" element={<OurFriend />} />
+            <Route
+              path="/login"
+              element={
+                <RestrictedRoute redirectTo="/user" component={<LoginPage />} />
+              }
+            />
+            <Route
+              path="/register"
+              element={
+                <RestrictedRoute
+                  redirectTo="/user"
+                  component={<RegisterPage />}
+                />
+              }
+            />
+            <Route
+              path="/user"
+              element={
+                <PrivateRoute redirectTo="/login" component={<UserAccount />} />
+              }
+            /> */}
+          </Route>
+        </Routes>
+       </HelmetProvider>
+    )
+  // );
 }
 
 export default App;
