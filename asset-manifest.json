@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/smart-shop/static/css/main.073c9b0a.css",
-    "main.js": "/smart-shop/static/js/main.ae95390c.js",
-    "static/js/787.8cab7dfb.chunk.js": "/smart-shop/static/js/787.8cab7dfb.chunk.js",
-    "static/media/logo.svg": "/smart-shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/smart-shop/static/css/main.e6c13ad2.css",
+    "main.js": "/smart-shop/static/js/main.915d38c4.js",
+    "static/js/606.6ba86e05.chunk.js": "/smart-shop/static/js/606.6ba86e05.chunk.js",
+    "static/js/558.d0db1bb8.chunk.js": "/smart-shop/static/js/558.d0db1bb8.chunk.js",
+    "static/media/tablet_hero_img.svg": "/smart-shop/static/media/tablet_hero_img.83cd8b89a15d94d3e93c2adf938d05d5.svg",
+    "static/media/bg1-home-tablet-min.png": "/smart-shop/static/media/bg1-home-tablet-min.6655fbf2d60ed6ac1bb6.png",
+    "static/media/bg1-home-laptop-min.png": "/smart-shop/static/media/bg1-home-laptop-min.0e5affe2c6503a3dfc74.png",
+    "static/media/bg1-home-mobile-min.png": "/smart-shop/static/media/bg1-home-mobile-min.580f4c477e97d7b2ff5d.png",
+    "static/media/logo.svg": "/smart-shop/static/media/logo.a8c844f0bc6f18fad4328ce380dae30c.svg",
+    "static/media/laptop_hero_img.svg": "/smart-shop/static/media/laptop_hero_img.36b722358cb0d59d1a74e0cd97d05d58.svg",
+    "static/media/mobile_hero_img.svg": "/smart-shop/static/media/mobile_hero_img.a4655aa98f1d510c6c4ab96e63a919db.svg",
     "index.html": "/smart-shop/index.html",
-    "main.073c9b0a.css.map": "/smart-shop/static/css/main.073c9b0a.css.map",
-    "main.ae95390c.js.map": "/smart-shop/static/js/main.ae95390c.js.map",
-    "787.8cab7dfb.chunk.js.map": "/smart-shop/static/js/787.8cab7dfb.chunk.js.map"
+    "static/media/acc_icon.svg": "/smart-shop/static/media/acc_icon.00a96a31399565a162125d4798a62d3f.svg",
+    "static/media/menu_icon.svg": "/smart-shop/static/media/menu_icon.e80f59b2082bdf019390f96ac2b879f2.svg",
+    "static/media/close_menu_icon.svg": "/smart-shop/static/media/close_menu_icon.0833e246ee99b383d8ea9162c5cbe9c9.svg",
+    "main.e6c13ad2.css.map": "/smart-shop/static/css/main.e6c13ad2.css.map",
+    "main.915d38c4.js.map": "/smart-shop/static/js/main.915d38c4.js.map",
+    "606.6ba86e05.chunk.js.map": "/smart-shop/static/js/606.6ba86e05.chunk.js.map",
+    "558.d0db1bb8.chunk.js.map": "/smart-shop/static/js/558.d0db1bb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ae95390c.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.915d38c4.js"
   ]
 }
